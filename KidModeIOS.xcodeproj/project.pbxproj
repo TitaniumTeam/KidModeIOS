@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842DEA551B7121B0007B35E0 /* kid.png in Resources */ = {isa = PBXBuildFile; fileRef = 842DEA541B7121B0007B35E0 /* kid.png */; };
+		842DEA5F1B712554007B35E0 /* AddKidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DEA5E1B712554007B35E0 /* AddKidView.swift */; };
+		842DEA611B71256A007B35E0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DEA601B71256A007B35E0 /* LoginView.swift */; };
+		842DEA631B712579007B35E0 /* ShowKidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DEA621B712579007B35E0 /* ShowKidView.swift */; };
 		843B7C791B7115A400D6CF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B7C781B7115A400D6CF3D /* AppDelegate.swift */; };
 		843B7C7B1B7115A400D6CF3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B7C7A1B7115A400D6CF3D /* ViewController.swift */; };
 		843B7C7E1B7115A400D6CF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843B7C7C1B7115A400D6CF3D /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842DEA541B7121B0007B35E0 /* kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kid.png; path = ../../../../../Volumes/WORK/Android/AppForKid/app/src/main/res/drawable/kid.png; sourceTree = "<group>"; };
+		842DEA5E1B712554007B35E0 /* AddKidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddKidView.swift; sourceTree = "<group>"; };
+		842DEA601B71256A007B35E0 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		842DEA621B712579007B35E0 /* ShowKidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowKidView.swift; sourceTree = "<group>"; };
 		843B7C731B7115A400D6CF3D /* KidModeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidModeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B7C771B7115A400D6CF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843B7C781B7115A400D6CF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,10 +87,14 @@
 			children = (
 				843B7C781B7115A400D6CF3D /* AppDelegate.swift */,
 				843B7C7A1B7115A400D6CF3D /* ViewController.swift */,
+				842DEA541B7121B0007B35E0 /* kid.png */,
 				843B7C7C1B7115A400D6CF3D /* Main.storyboard */,
 				843B7C7F1B7115A400D6CF3D /* Images.xcassets */,
 				843B7C811B7115A400D6CF3D /* LaunchScreen.xib */,
 				843B7C761B7115A400D6CF3D /* Supporting Files */,
+				842DEA5E1B712554007B35E0 /* AddKidView.swift */,
+				842DEA601B71256A007B35E0 /* LoginView.swift */,
+				842DEA621B712579007B35E0 /* ShowKidView.swift */,
 			);
 			path = KidModeIOS;
 			sourceTree = "<group>";
@@ -194,6 +206,7 @@
 			files = (
 				843B7C7E1B7115A400D6CF3D /* Main.storyboard in Resources */,
 				843B7C831B7115A400D6CF3D /* LaunchScreen.xib in Resources */,
+				842DEA551B7121B0007B35E0 /* kid.png in Resources */,
 				843B7C801B7115A400D6CF3D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				843B7C7B1B7115A400D6CF3D /* ViewController.swift in Sources */,
+				842DEA631B712579007B35E0 /* ShowKidView.swift in Sources */,
 				843B7C791B7115A400D6CF3D /* AppDelegate.swift in Sources */,
+				842DEA611B71256A007B35E0 /* LoginView.swift in Sources */,
+				842DEA5F1B712554007B35E0 /* AddKidView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				843B7C941B7115A400D6CF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843B7C951B7115A400D6CF3D /* Build configuration list for PBXNativeTarget "KidModeIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				843B7C971B7115A400D6CF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
