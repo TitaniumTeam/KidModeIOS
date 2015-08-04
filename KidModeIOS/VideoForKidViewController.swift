@@ -35,12 +35,19 @@ class VideoForKidViewController: UIViewController, UITabBarDelegate {
         switch(item.tag)
         {
         case 1:
+            scrollView.contentOffset = CGPoint(x: 0,y: 0)
             loadDataDefaultVideo()
             showVideo()
             break;
         case 2:
+            scrollView.contentOffset = CGPoint(x: 0,y: 0)
+            loadDataVideoForKid()
+            showVideo()
             break;
         case 3:
+            scrollView.contentOffset = CGPoint(x: 0,y: 0)
+            loadDataApp()
+            showApp()
             break;
         case 4:
             break;
@@ -70,6 +77,33 @@ class VideoForKidViewController: UIViewController, UITabBarDelegate {
         }
     }
     
+    func loadDataVideoForKid()
+    {
+        videoArray.removeAll(keepCapacity: false)
+        for var i = 0; i < 10; i++
+        {
+            var video = VideoObject()
+            video.title = "Những cuộc phiêu lưu của RobinHood"
+            video.thumbailImage = "https://i.ytimg.com/vi_webp/4UtaBo-_SyY/default.webp"
+            video.ID = "PL7rZFIwA_WxrM-NJ1iVDX4AooKsjZChNh"
+            videoArray.append(video)
+        }
+    }
+
+    func loadDataApp()
+    {
+        videoArray.removeAll(keepCapacity: false)
+        for var i = 0; i < 10; i++
+        {
+            var video = VideoObject()
+            video.title = "Clash of Clans"
+            video.thumbailImage = "https://i.ytimg.com/vi_webp/4UtaBo-_SyY/default.webp"
+            video.ID = "PL7rZFIwA_WxrM-NJ1iVDX4AooKsjZChNh"
+            videoArray.append(video)
+        }
+
+    }
+    
     func showVideo() {
         
         let subViews = self.child_view.subviews
@@ -78,12 +112,12 @@ class VideoForKidViewController: UIViewController, UITabBarDelegate {
         }
         
         //self.scrollView.frame = self.view.bounds
-        self.scrollView.contentSize.width = 192 * 10 + 192/2
+        self.scrollView.contentSize.width = 192 * 10
       
        // println()
         
         child_view.backgroundColor = UIColor.blueColor().colorWithAlphaComponent(0)
-        self.child_view.frame.size.width = 192 * 10 + 192/2;
+        self.child_view.frame.size.width = 192 * 10;
         
         for(var index = 0; index < videoArray.count; ++index){
             
@@ -109,6 +143,52 @@ class VideoForKidViewController: UIViewController, UITabBarDelegate {
             btnVideoImage.tag = index
             
         }
+    }
+    
+    func showApp() {
+        
+        let subViews = self.child_view.subviews
+        for subview in subViews{
+            subview.removeFromSuperview()
+        }
+        
+        //self.scrollView.frame = self.view.bounds
+        self.scrollView.contentSize.width = 192 * 10
+        
+        // println()
+        
+        child_view.backgroundColor = UIColor.blueColor().colorWithAlphaComponent(0)
+        self.child_view.frame.size.width = 192 * 10;
+        
+        for(var index = 0; index < videoArray.count; ++index){
+            
+            var backgroundIMG : UIImageView
+            backgroundIMG  = UIImageView(frame:CGRectMake(CGFloat(192 * index),70, 192, 120));
+            backgroundIMG.image = UIImage(named:"g_conveyor_middle.png")
+            self.child_view.addSubview(backgroundIMG)
+            
+            var lblAppName: UILabel
+            lblAppName = UILabel(frame: CGRectMake(backgroundIMG.frame.origin.x, 100, 180, 70))
+            lblAppName.text = videoArray[index].title
+            self.child_view.addSubview(lblAppName)
+            lblAppName.textAlignment = .Center
+            lblAppName.numberOfLines = 3
+            lblAppName.textColor = UIColor.whiteColor()
+            
+            var btnAppImage: UIButton
+            btnAppImage = UIButton(frame: CGRectMake(backgroundIMG.frame.origin.x + 31, 20, 130, 85))
+            var appImage = UIImage(named:"playlist_logo.jpg")
+            btnAppImage.setImage(appImage, forState: UIControlState.Normal)
+            self.child_view.addSubview(btnAppImage)
+            btnAppImage.addTarget(self, action: "playApp:", forControlEvents: UIControlEvents.TouchUpInside)
+            btnAppImage.tag = index
+            
+        }
+    }
+
+    func playApp(sender: UIButton)
+    {
+        
     }
     
     func playVideo(sender: UIButton)
