@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		842DEA551B7121B0007B35E0 /* kid.png in Resources */ = {isa = PBXBuildFile; fileRef = 842DEA541B7121B0007B35E0 /* kid.png */; };
 		842DEA5F1B712554007B35E0 /* AddKidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DEA5E1B712554007B35E0 /* AddKidView.swift */; };
 		842DEA611B71256A007B35E0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DEA601B71256A007B35E0 /* LoginView.swift */; };
 		842DEA631B712579007B35E0 /* ShowKidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DEA621B712579007B35E0 /* ShowKidView.swift */; };
@@ -17,6 +16,22 @@
 		843B7C801B7115A400D6CF3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843B7C7F1B7115A400D6CF3D /* Images.xcassets */; };
 		843B7C831B7115A400D6CF3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843B7C811B7115A400D6CF3D /* LaunchScreen.xib */; };
 		843B7C8F1B7115A400D6CF3D /* KidModeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B7C8E1B7115A400D6CF3D /* KidModeIOSTests.swift */; };
+		CCAAE1741B70A20F00F16339 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAAE1731B70A20F00F16339 /* VideoPlayerViewController.swift */; };
+		CCAAE18F1B70A2A000F16339 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCAAE18C1B70A2A000F16339 /* Info.plist */; };
+		CCAAE1901B70A2A000F16339 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAAE18D1B70A2A000F16339 /* YouTubePlayer.swift */; };
+		CCAAE1911B70A2A000F16339 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = CCAAE18E1B70A2A000F16339 /* YTPlayer.html */; };
+		CCAAE1931B70A3FF00F16339 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAAE1921B70A3FF00F16339 /* lock.png */; };
+		CCAAE1951B70B32900F16339 /* video-back.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAAE1941B70B32900F16339 /* video-back.png */; };
+		CCB254661B70744100F77432 /* VideoForKidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB254651B70744100F77432 /* VideoForKidViewController.swift */; };
+		CCB2546B1B70747300F77432 /* default-video.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB254671B70747300F77432 /* default-video.png */; };
+		CCB2546C1B70747300F77432 /* video-forkid.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB254681B70747300F77432 /* video-forkid.png */; };
+		CCB2546D1B70747300F77432 /* app-forkid.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB254691B70747300F77432 /* app-forkid.png */; };
+		CCB2546E1B70747300F77432 /* draw-forkid.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB2546A1B70747300F77432 /* draw-forkid.png */; };
+		CCB254711B70768300F77432 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB254701B70768300F77432 /* back.png */; };
+		CCB254741B7077FA00F77432 /* VideoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB254731B7077FA00F77432 /* VideoObject.swift */; };
+		CCB254761B707B5100F77432 /* g_conveyor_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB254751B707B5100F77432 /* g_conveyor_middle.png */; };
+		CCB254781B707B6F00F77432 /* no_playlist_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB254771B707B6F00F77432 /* no_playlist_logo.png */; };
+		CCB2547A1B707B8C00F77432 /* playlist_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB254791B707B8C00F77432 /* playlist_logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		842DEA541B7121B0007B35E0 /* kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kid.png; path = ../../../../../Volumes/WORK/Android/AppForKid/app/src/main/res/drawable/kid.png; sourceTree = "<group>"; };
 		842DEA5E1B712554007B35E0 /* AddKidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddKidView.swift; sourceTree = "<group>"; };
 		842DEA601B71256A007B35E0 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		842DEA621B712579007B35E0 /* ShowKidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowKidView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,22 @@
 		843B7C881B7115A400D6CF3D /* KidModeIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidModeIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B7C8D1B7115A400D6CF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843B7C8E1B7115A400D6CF3D /* KidModeIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidModeIOSTests.swift; sourceTree = "<group>"; };
+		CCAAE1731B70A20F00F16339 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		CCAAE18C1B70A2A000F16339 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAAE18D1B70A2A000F16339 /* YouTubePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubePlayer.swift; sourceTree = "<group>"; };
+		CCAAE18E1B70A2A000F16339 /* YTPlayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YTPlayer.html; sourceTree = "<group>"; };
+		CCAAE1921B70A3FF00F16339 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		CCAAE1941B70B32900F16339 /* video-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-back.png"; sourceTree = "<group>"; };
+		CCB254651B70744100F77432 /* VideoForKidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoForKidViewController.swift; sourceTree = "<group>"; };
+		CCB254671B70747300F77432 /* default-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-video.png"; sourceTree = "<group>"; };
+		CCB254681B70747300F77432 /* video-forkid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-forkid.png"; sourceTree = "<group>"; };
+		CCB254691B70747300F77432 /* app-forkid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-forkid.png"; sourceTree = "<group>"; };
+		CCB2546A1B70747300F77432 /* draw-forkid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw-forkid.png"; sourceTree = "<group>"; };
+		CCB254701B70768300F77432 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		CCB254731B7077FA00F77432 /* VideoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoObject.swift; sourceTree = "<group>"; };
+		CCB254751B707B5100F77432 /* g_conveyor_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g_conveyor_middle.png; sourceTree = "<group>"; };
+		CCB254771B707B6F00F77432 /* no_playlist_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_playlist_logo.png; sourceTree = "<group>"; };
+		CCB254791B707B8C00F77432 /* playlist_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playlist_logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +115,11 @@
 		843B7C751B7115A400D6CF3D /* KidModeIOS */ = {
 			isa = PBXGroup;
 			children = (
+				CCAAE18B1B70A2A000F16339 /* YouTubePlayer */,
+				CCB254721B7077DF00F77432 /* Object */,
+				CCB2546F1B70747600F77432 /* Resources */,
 				843B7C781B7115A400D6CF3D /* AppDelegate.swift */,
 				843B7C7A1B7115A400D6CF3D /* ViewController.swift */,
-				842DEA541B7121B0007B35E0 /* kid.png */,
 				843B7C7C1B7115A400D6CF3D /* Main.storyboard */,
 				843B7C7F1B7115A400D6CF3D /* Images.xcassets */,
 				843B7C811B7115A400D6CF3D /* LaunchScreen.xib */,
@@ -95,6 +127,8 @@
 				842DEA5E1B712554007B35E0 /* AddKidView.swift */,
 				842DEA601B71256A007B35E0 /* LoginView.swift */,
 				842DEA621B712579007B35E0 /* ShowKidView.swift */,
+				CCB254651B70744100F77432 /* VideoForKidViewController.swift */,
+				CCAAE1731B70A20F00F16339 /* VideoPlayerViewController.swift */,
 			);
 			path = KidModeIOS;
 			sourceTree = "<group>";
@@ -122,6 +156,41 @@
 				843B7C8D1B7115A400D6CF3D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCAAE18B1B70A2A000F16339 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CCAAE18C1B70A2A000F16339 /* Info.plist */,
+				CCAAE18D1B70A2A000F16339 /* YouTubePlayer.swift */,
+				CCAAE18E1B70A2A000F16339 /* YTPlayer.html */,
+			);
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		CCB2546F1B70747600F77432 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCAAE1941B70B32900F16339 /* video-back.png */,
+				CCAAE1921B70A3FF00F16339 /* lock.png */,
+				CCB254791B707B8C00F77432 /* playlist_logo.jpg */,
+				CCB254771B707B6F00F77432 /* no_playlist_logo.png */,
+				CCB254751B707B5100F77432 /* g_conveyor_middle.png */,
+				CCB254701B70768300F77432 /* back.png */,
+				CCB254671B70747300F77432 /* default-video.png */,
+				CCB254681B70747300F77432 /* video-forkid.png */,
+				CCB254691B70747300F77432 /* app-forkid.png */,
+				CCB2546A1B70747300F77432 /* draw-forkid.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCB254721B7077DF00F77432 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				CCB254731B7077FA00F77432 /* VideoObject.swift */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +274,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				843B7C7E1B7115A400D6CF3D /* Main.storyboard in Resources */,
+				CCB254761B707B5100F77432 /* g_conveyor_middle.png in Resources */,
+				CCB2546B1B70747300F77432 /* default-video.png in Resources */,
+				CCAAE1951B70B32900F16339 /* video-back.png in Resources */,
+				CCAAE1911B70A2A000F16339 /* YTPlayer.html in Resources */,
+				CCB2546E1B70747300F77432 /* draw-forkid.png in Resources */,
+				CCB2546D1B70747300F77432 /* app-forkid.png in Resources */,
+				CCAAE1931B70A3FF00F16339 /* lock.png in Resources */,
+				CCB254781B707B6F00F77432 /* no_playlist_logo.png in Resources */,
+				CCB2547A1B707B8C00F77432 /* playlist_logo.jpg in Resources */,
+				CCB254711B70768300F77432 /* back.png in Resources */,
+				CCAAE18F1B70A2A000F16339 /* Info.plist in Resources */,
+				CCB2546C1B70747300F77432 /* video-forkid.png in Resources */,
 				843B7C831B7115A400D6CF3D /* LaunchScreen.xib in Resources */,
-				842DEA551B7121B0007B35E0 /* kid.png in Resources */,
 				843B7C801B7115A400D6CF3D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,11 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCAAE1901B70A2A000F16339 /* YouTubePlayer.swift in Sources */,
 				843B7C7B1B7115A400D6CF3D /* ViewController.swift in Sources */,
 				842DEA631B712579007B35E0 /* ShowKidView.swift in Sources */,
 				843B7C791B7115A400D6CF3D /* AppDelegate.swift in Sources */,
 				842DEA611B71256A007B35E0 /* LoginView.swift in Sources */,
+				CCB254741B7077FA00F77432 /* VideoObject.swift in Sources */,
+				CCAAE1741B70A20F00F16339 /* VideoPlayerViewController.swift in Sources */,
 				842DEA5F1B712554007B35E0 /* AddKidView.swift in Sources */,
+				CCB254661B70744100F77432 /* VideoForKidViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KidModeIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -367,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KidModeIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
